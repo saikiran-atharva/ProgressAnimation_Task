@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimationTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26fa10f0d831a92bd0c4107caaf2adeacba47eef")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimationTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimationTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

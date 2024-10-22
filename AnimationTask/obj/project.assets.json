@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RajeA\\source\\repos\\AnimationTask\\AnimationTask\\AnimationTask.csproj",
+      "projectUniqueName": "C:\\Users\\RajeA\\Source\\Repos\\ProgressAnimation_Task\\AnimationTask\\AnimationTask.csproj",
       "projectName": "AnimationTask",
-      "projectPath": "C:\\Users\\RajeA\\source\\repos\\AnimationTask\\AnimationTask\\AnimationTask.csproj",
+      "projectPath": "C:\\Users\\RajeA\\Source\\Repos\\ProgressAnimation_Task\\AnimationTask\\AnimationTask.csproj",
       "packagesPath": "C:\\Users\\RajeA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RajeA\\source\\repos\\AnimationTask\\AnimationTask\\obj\\",
+      "outputPath": "C:\\Users\\RajeA\\Source\\Repos\\ProgressAnimation_Task\\AnimationTask\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
