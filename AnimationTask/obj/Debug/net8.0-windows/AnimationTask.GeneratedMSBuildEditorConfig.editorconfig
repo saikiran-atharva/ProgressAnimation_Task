@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AnimationTask
-build_property.ProjectDir = C:\Users\RajeA\source\repos\AnimationTask\AnimationTask\
+build_property.ProjectDir = C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
