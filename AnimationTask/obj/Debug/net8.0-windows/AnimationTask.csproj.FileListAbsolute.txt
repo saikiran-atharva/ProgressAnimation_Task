@@ -19,3 +19,7 @@ C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.0-windows\AnimationTask.pdb
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.0-windows\AnimationTask.genruntimeconfig.cache
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.0-windows\ref\AnimationTask.dll
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.0-windows\AnimationTask.csproj.AssemblyReference.cache
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\bin\Debug\net8.0-windows\UserControls_Shared.dll
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\bin\Debug\net8.0-windows\UserControls_Shared.pdb
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\AnimationTask\obj\Debug\net8.0-windows\Animatio.48EB917B.Up2Date
