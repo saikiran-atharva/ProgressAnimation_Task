@@ -1,11 +1,33 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "UserControls_Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/UserControls_Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserControls_Shared.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UserControls_Shared/1.0.0": {
+      "type": "project",
+      "path": "../UserControls_Shared/UserControls_Shared.csproj",
+      "msbuildProject": "../UserControls_Shared/UserControls_Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "UserControls_Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\RajeA\\.nuget\\packages\\": {},
@@ -40,7 +62,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\RajeA\\Source\\Repos\\ProgressAnimation_Task\\UserControls_Shared\\UserControls_Shared.csproj": {
+              "projectPath": "C:\\Users\\RajeA\\Source\\Repos\\ProgressAnimation_Task\\UserControls_Shared\\UserControls_Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

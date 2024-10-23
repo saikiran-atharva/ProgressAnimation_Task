@@ -5,10 +5,11 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using UserControls_Shared;
 namespace AnimationTask
 {
     /// <summary>
@@ -19,6 +20,11 @@ namespace AnimationTask
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void StartProgress_Click(object sender, RoutedEventArgs e)
+        {
+            var ring = new UserControl1();
+            ring.Rotate_Ring(sender, e);
         }
     }
 }
