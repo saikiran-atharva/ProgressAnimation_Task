@@ -1,11 +1,15 @@
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\bin\Debug\net8.0-windows\UserControls_Shared.deps.json
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\bin\Debug\net8.0-windows\UserControls_Shared.dll
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\bin\Debug\net8.0-windows\UserControls_Shared.pdb
-C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\ProgressRing.g.cs
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\PopupUserControl.baml
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\CircularTimerControl.g.cs
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\PopupUserControl.g.cs
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\Progress_Viewer.g.cs
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControl1.g.cs
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControls_Shared_MarkupCompile.cache
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControls_Shared_MarkupCompile.lref
-C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\ProgressRing.baml
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\CircularTimerControl.baml
+C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\Progress_Viewer.baml
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControl1.baml
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControls_Shared.g.resources
 C:\Users\RajeA\Source\Repos\ProgressAnimation_Task\UserControls_Shared\obj\Debug\net8.0-windows\UserControls_Shared.GeneratedMSBuildEditorConfig.editorconfig

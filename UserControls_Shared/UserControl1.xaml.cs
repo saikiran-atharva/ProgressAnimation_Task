@@ -26,7 +26,7 @@ namespace UserControls_Shared
 
             RotateTransform rotateTransform = new RotateTransform();
             progressPath.RenderTransform = rotateTransform;
-            progressPath.RenderTransformOrigin = new Point(0.6, 0.6);
+            progressPath.RenderTransformOrigin = new Point(0.5, 0.5);
 
 
             DoubleAnimation rotateAnimation = new DoubleAnimation
@@ -38,6 +38,7 @@ namespace UserControls_Shared
             };
 
             rotateTransform.BeginAnimation(RotateTransform.AngleProperty, rotateAnimation);
+             //progressPath.RenderTransform.BeginAnimation(RotateTransform.CenterXProperty, rotateAnimation);
         }
     }
 
