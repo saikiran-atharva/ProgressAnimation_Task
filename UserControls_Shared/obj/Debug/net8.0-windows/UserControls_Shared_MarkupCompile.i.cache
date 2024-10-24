@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 
-1-39517732
+4159829559
 
-51370100300
+894016052
 1981124507420
-UserControl1.xaml;
+CircularTimerControl.xaml;PopupUserControl.xaml;Progress_Viewer.xaml;UserControl1.xaml;
 
 True
 

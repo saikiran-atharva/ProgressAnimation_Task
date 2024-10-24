@@ -7,8 +7,10 @@
         xmlns:uc="clr-namespace:UserControls_Shared;assembly=UserControls_Shared"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterOwner">
-    <Grid>
-        <uc:UserControl1></uc:UserControl1>
-            <Button Content="Click me to Execute!" Width="120" Height="40" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,50" Click="StartProgress_Click"/>
+    <Grid x:Name="MainGrid">
+            <uc:Progress_Viewer Name="progress_Viewer" Visibility="Collapsed"></uc:Progress_Viewer>
+        <Button Content="Open Progress" Width="150" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Click="OpenProgress_Click"/>
+         
+          
     </Grid>
 </Window>

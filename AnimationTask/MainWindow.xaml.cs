@@ -10,6 +10,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using UserControls_Shared;
+ 
 namespace AnimationTask
 {
     /// <summary>
@@ -21,10 +22,24 @@ namespace AnimationTask
         {
             InitializeComponent();
         }
-        private void StartProgress_Click(object sender, RoutedEventArgs e)
+        private void OpenProgress_Click(object sender, RoutedEventArgs e)
         {
-            var ring = new UserControl1();
-            ring.Rotate_Ring(sender, e);
+
+            ////PopupUserControl popup = new PopupUserControl();
+            //UserControl1 popup = new UserControl1();
+
+            //MainGrid.Children.Add(popup);
+
+            //circleControl.Visibility = Visibility.Visible;
+            //circleControl.StartCountdown();
+            //Progress_Viewer progress_Viewer = new Progress_Viewer();
+            //MainGrid.Children.Add(progress_Viewer);
+            //progress_Viewer.Visibility = Visibility.Visible;
+            //progress_Viewer.StartCountdown();
+            
+            progress_Viewer.Visibility = Visibility.Visible;
+            progress_Viewer.StartRotationAndCountdown();
         }
     }
 }
+ 
