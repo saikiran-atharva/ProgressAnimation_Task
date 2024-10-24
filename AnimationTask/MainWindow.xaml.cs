@@ -36,9 +36,11 @@ namespace AnimationTask
             //MainGrid.Children.Add(progress_Viewer);
             //progress_Viewer.Visibility = Visibility.Visible;
             //progress_Viewer.StartCountdown();
-            
-            progress_Viewer.Visibility = Visibility.Visible;
-            progress_Viewer.StartRotationAndCountdown();
+            Modal modal = new Modal();
+            modal.Owner = this;
+            modal.ShowDialog();
+             
+
         }
     }
 }

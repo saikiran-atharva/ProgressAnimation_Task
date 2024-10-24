@@ -8,9 +8,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterOwner">
     <Grid x:Name="MainGrid">
-            <uc:Progress_Viewer Name="progress_Viewer" Visibility="Collapsed"></uc:Progress_Viewer>
         <Button Content="Open Progress" Width="150" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Click="OpenProgress_Click"/>
-         
-          
     </Grid>
 </Window>
