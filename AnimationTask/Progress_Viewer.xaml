@@ -23,11 +23,32 @@
         <Ellipse Width="300" Height="300" Fill="Silver"/>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
-                <Ellipse Width="100" Height="100" Stroke="SteelBlue" x:Name="Spinner"  StrokeThickness="5" StrokeDashArray="20" VerticalAlignment="Top">
+                <!--<Ellipse Width="100" Height="100" Stroke="SteelBlue" x:Name="Spinner"  StrokeThickness="5" StrokeDashArray="20" VerticalAlignment="Top">
                     <Ellipse.RenderTransform>
                         <RotateTransform x:Name="rotateTransform" Angle="0" CenterX="50" CenterY="50"/>
                     </Ellipse.RenderTransform>
-                </Ellipse>
+                </Ellipse>-->
+                <Grid x:Name="Spinner" RenderTransformOrigin="0.5,0.5">
+                    <Grid.RenderTransform>
+                        <RotateTransform x:Name="rotateTransform" Angle="0"/>
+                    </Grid.RenderTransform>
+                    <Ellipse Width="100" Height="100" Stroke="SteelBlue" StrokeThickness="5" StrokeDashArray="20" VerticalAlignment="Top">
+                    </Ellipse>
+                    <Polygon Points="50,15 60,30 40,30"
+                             Fill="SteelBlue"
+                             VerticalAlignment="Bottom"
+                             HorizontalAlignment="Left"
+                             RenderTransformOrigin="0.5,0.454" Width="66" Margin="-25,0,0,-10" Height="29">
+                        <Polygon.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="-48.604"/>
+                                <TranslateTransform X="-0.021" Y="0"/>
+                            </TransformGroup>
+                        </Polygon.RenderTransform>
+                    </Polygon>
+                </Grid>
                 <Path x:Name="RedCross" 
   Stroke="IndianRed" 
   StrokeThickness="5"
