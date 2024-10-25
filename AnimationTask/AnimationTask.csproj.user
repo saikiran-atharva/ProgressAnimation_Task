@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Modal.xaml.cs">
+    <Compile Update="Progress_Viewer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -15,7 +15,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Modal.xaml">
+    <Page Update="Progress_Viewer.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
