@@ -2,27 +2,12 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="CircularTimerControl.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="PopupuserControl.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Progress_Viewer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="CircularTimerControl.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Progress_Viewer.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UserControl1.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="PopupUserControl.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

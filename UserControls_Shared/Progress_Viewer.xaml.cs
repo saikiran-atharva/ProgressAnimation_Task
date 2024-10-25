@@ -22,69 +22,24 @@ namespace UserControls_Shared
     /// </summary>
     public partial class Progress_Viewer : UserControl
     {
-        //private int _timeRemaining = 30;
-        //private DispatcherTimer _timer;
-        //private int _remainingTime;
-        //private Storyboard _rotationStoryboard;
+         
         private DispatcherTimer _timer;
         private int _remainingTime;   
         private Storyboard _rotationStoryboard;
+        public event EventHandler CountdownCompleted;
         public Progress_Viewer()
         {
             InitializeComponent();
             SetupRotationAnimation();
         }
-        //public void StartCountdown()
-        //{
-        //    _remainingTime = 30;  
-        //    CountdownText.Text = _remainingTime.ToString();
-
-
-        //    _rotationStoryboard.Begin(this,true);
-        //    _timer = new DispatcherTimer();
-        //    _timer.Interval = TimeSpan.FromSeconds(1);
-        //    _timer.Tick += Timer_Tick;
-        //    _timer.Start();
-        //}
-        //private void SetupRotationAnimation()
-        //{
-        //    // Create the rotation animation
-        //    _rotationStoryboard = new Storyboard();
-        //    var rotateAnimation = new DoubleAnimation(0, 360, new Duration(TimeSpan.FromSeconds(2)));
-        //    rotateAnimation.RepeatBehavior = RepeatBehavior.Forever;
-        //    Storyboard.SetTarget(rotateAnimation, rotateTransform);
-        //    Storyboard.SetTargetProperty(rotateAnimation, new PropertyPath(RotateTransform.AngleProperty));
-        //    _rotationStoryboard.Children.Add(rotateAnimation);
-        //}
-        //private void Timer_Tick(object sender, EventArgs e)
-        //{
-        //    _timeRemaining--;
-        //    CountdownText.Text = _timeRemaining.ToString();
-
-        //    if (_timeRemaining <= 0)
-        //    {
-
-        //        _timer.Stop();
-        //        _rotationStoryboard.Stop(this);
-
-
-        //        var parent = this.Parent as Panel;
-        //        if (parent != null)
-        //        {
-        //            parent.Children.Remove(this);
-        //        }
-        //    }
-        //}
+         
         public void StartRotationAndCountdown()
         {
              
             _remainingTime = 30;
-            CountdownText.Text = _remainingTime.ToString();
-
-
             _rotationStoryboard.Begin();
             _timer = new DispatcherTimer();
-            _timer.Interval = TimeSpan.FromSeconds(1); // 1 second intervals
+            _timer.Interval = TimeSpan.FromSeconds(1);
             _timer.Tick += Timer_Tick;
             _timer.Start();
         }
@@ -102,16 +57,21 @@ namespace UserControls_Shared
         {
 
             _remainingTime--;
-            CountdownText.Text = _remainingTime.ToString();
-
+            UpdateCountdownText();
 
             if (_remainingTime <= 0)
             {
                 _timer.Stop();
                 _rotationStoryboard.Stop();
-                //RotateStoryboard.Storyboard.Stop();
+                CountdownCompleted?.Invoke(this, EventArgs.Empty);
                 this.Visibility = Visibility.Collapsed;
+                
             }
+        }
+        private void UpdateCountdownText()
+        {
+             
+            CountdownText.Text = $"Timeout in {_remainingTime} sec";
         }
 
     }
