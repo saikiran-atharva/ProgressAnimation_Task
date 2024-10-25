@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 
+
 namespace AnimationTask
 {
     public partial class MainWindow : Window

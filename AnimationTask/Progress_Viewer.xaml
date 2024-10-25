@@ -23,38 +23,11 @@
         <Ellipse Width="300" Height="300" Fill="Silver"/>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
-                <!--<Ellipse Width="100" Height="100" Stroke="SteelBlue" x:Name="Spinner"  StrokeThickness="5" StrokeDashArray="20" VerticalAlignment="Top">
+                <Ellipse Width="100" Height="100" Stroke="SteelBlue" x:Name="Spinner"  StrokeThickness="5" StrokeDashArray="20" VerticalAlignment="Top">
                     <Ellipse.RenderTransform>
                         <RotateTransform x:Name="rotateTransform" Angle="0" CenterX="50" CenterY="50"/>
                     </Ellipse.RenderTransform>
-                </Ellipse>-->
-                <Grid x:Name="rotateGrid" RenderTransformOrigin="0.5,0.5">
-                    <Grid.RenderTransform>
-                        <RotateTransform x:Name="rotateTransform" Angle="0"/>
-                    </Grid.RenderTransform>
-
-                    <!-- Arc Path representing the almost-full circle -->
-                    <Path Stroke="SteelBlue"
-                          StrokeThickness="5"
-                          VerticalAlignment="Top">
-                        <Path.Data>
-                            <PathGeometry>
-                                <PathFigure StartPoint="50,0">
-                                    <ArcSegment Point="50,100"
-                                                Size="50,50"
-                                                SweepDirection="Clockwise"
-                                                IsLargeArc="True" />
-                                </PathFigure>
-                            </PathGeometry>
-                        </Path.Data>
-                    </Path>
-
-                    <!-- Arrow at the end of the arc -->
-                    <Polyline Points="50,100 55,90 45,90"
-                              Stroke="SteelBlue"
-                              StrokeThickness="5"
-                              VerticalAlignment="Top"/>
-                </Grid>
+                </Ellipse>
                 <Path x:Name="RedCross" 
   Stroke="IndianRed" 
   StrokeThickness="5"

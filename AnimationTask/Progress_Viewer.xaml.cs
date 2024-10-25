@@ -52,8 +52,7 @@ namespace AnimationTask
             {
                 CountdownText.Text = "TIMEOUT!";
                 _rotationStoryboard.Stop();
-                //Spinner.Visibility = Visibility.Collapsed;
-                rotateGrid.Visibility = Visibility.Collapsed;
+                Spinner.Visibility = Visibility.Collapsed;
                 RedCross.Visibility = Visibility.Visible;
                 if (_remainingTime == -4)
                 {
