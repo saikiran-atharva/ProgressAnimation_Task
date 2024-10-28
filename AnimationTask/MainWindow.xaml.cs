@@ -14,6 +14,7 @@ namespace AnimationTask
             Progress_Viewer progress = new Progress_Viewer();
             progress.Owner = this;
             //progress.countdownTimmer = 40;
+            //progress.countdownTimmer = 10;
             progress.ShowDialog();
         }
     }
